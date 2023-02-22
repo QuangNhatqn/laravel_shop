@@ -1,0 +1,14 @@
+site manager: https://www.000webhost.com/members/website/list
+
+
+site_name: quangnhatqn.000webhostapp.com
+
+file manager https://files.000webhost.com/
+username: quangnhatqn
+password: quangnhat123
+
+
+db
+db name: id20338488_shop
+db user: id20338488_quangnhatqn
+db pw: C1a&@^6%UZTZ%y83
