@@ -20,7 +20,7 @@ class AdminSettingController extends Controller
     }
 
     public function index(){
-        $post_status = '';
+        $post_status = 'setting';
 
         $all = $this->model->get();
         $countAll = count($all);

@@ -13,12 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    dd('abc');
-    return view('welcome');
-});
-Route::get('/trang-chu', function () {
-    return view('customerlayouts.pages.trangchu.index');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
 
 

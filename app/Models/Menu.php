@@ -11,4 +11,8 @@ class Menu extends Model
     use HasFactory;
     use SoftDeletes;
     protected $fillable = ['name', 'parent_id', 'slug'];
+
+    function menuChilds(){
+        return $this->hasMany(Menu::class, 'parent_id');
+    }
 }
