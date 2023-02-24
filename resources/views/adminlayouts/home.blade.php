@@ -19,7 +19,7 @@
                                 </div>
                                 <div>
                                     <h3 class="m-b-0">Welcome back!</h3>
-                                    <span>Monday, 9 March 2019</span>
+                                    <span>{{date("D, d F Y")}}</span>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +28,7 @@
             </div>
 
             <div class="row">
-                Trang Chủ
+{{--                Trang Chủ--}}
             </div>
 
         </div>

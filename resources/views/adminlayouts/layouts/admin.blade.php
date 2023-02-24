@@ -93,17 +93,19 @@
                     <i class="mdi mdi-wrench font-20"></i>
                 </a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-profile-tab4" data-toggle="pill" href="#chat" role="tab" aria-controls="chat" aria-selected="false">
-                    <i class="mdi mdi-message-reply font-20"></i>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" id="pills-contact-tab4" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact"
-                   aria-selected="false">
-                    <i class="mdi mdi-star-circle font-20"></i>
-                </a>
-            </li>
+
+{{--            <li class="nav-item">--}}
+{{--                <a class="nav-link" id="pills-profile-tab4" data-toggle="pill" href="#chat" role="tab" aria-controls="chat" aria-selected="false">--}}
+{{--                    <i class="mdi mdi-message-reply font-20"></i>--}}
+{{--                </a>--}}
+{{--            </li>--}}
+{{--            <li class="nav-item">--}}
+{{--                <a class="nav-link" id="pills-contact-tab4" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact"--}}
+{{--                   aria-selected="false">--}}
+{{--                    <i class="mdi mdi-star-circle font-20"></i>--}}
+{{--                </a>--}}
+{{--            </li>--}}
+
         </ul>
         <div class="tab-content" id="pills-tabContent4">
             <!-- Tab 1 -->

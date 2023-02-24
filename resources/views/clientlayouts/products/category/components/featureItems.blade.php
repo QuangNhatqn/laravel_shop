@@ -1,6 +1,7 @@
 <div class="features_items"><!--features_items-->
     <h2 class="title text-center">Features Items</h2>
-    @if(empty($categoryProducts))
+{{--    {{dd($categoryProducts)}}--}}
+    @if($categoryProducts->count() == 0)
         <div class="col-sm-12 text-center"><p>Không có sản phẩm nào</p></div>
     @endif
     @foreach($categoryProducts as $categoryProduct)

@@ -9,7 +9,7 @@
                     <!-- User Profile-->
                     <div class="user-profile dropdown m-t-20">
                         <div class="user-pic">
-                            <img src="{{asset('adminbite/assets/images/users/1.jpg')}}" alt="users" class="rounded-circle img-fluid" />
+                            <img src="{{asset('adminbite/assets/images/users/2.jpg')}}" alt="users" class="rounded-circle img-fluid" />
                         </div>
                         <div class="user-content hide-menu m-t-10">
                             <h5 class="m-b-10 user-name font-medium">{{auth()->user()->name}}</h5>
@@ -50,21 +50,9 @@
                     </a>
                     <ul aria-expanded="false" class="collapse  first-level">
                         <li class="sidebar-item">
-                            <a href="index.html" class="sidebar-link">
+                            <a href="{{route('admin.home')}}" class="sidebar-link">
                                 <i class="icon-Record"></i>
-                                <span class="hide-menu"> Dashboard 1 </span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="index2.html" class="sidebar-link">
-                                <i class="icon-Record"></i>
-                                <span class="hide-menu"> Dashboard 2 </span>
-                            </a>
-                        </li>
-                        <li class="sidebar-item">
-                            <a href="index3.html" class="sidebar-link">
-                                <i class="icon-Record"></i>
-                                <span class="hide-menu"> Dashboard 3 </span>
+                                <span class="hide-menu"> Dashboard</span>
                             </a>
                         </li>
 

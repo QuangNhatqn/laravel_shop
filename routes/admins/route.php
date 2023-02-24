@@ -7,7 +7,7 @@ Route::get('/admin/logout', 'App\Http\Controllers\AdminController@getLogoutAdmin
 
 Route::get('/admin/home',function () {
     return view('adminlayouts.home');
-})->middleware('adminLogin');
+})->middleware('adminLogin')->name('admin.home');
 Route::prefix('admin')->middleware('adminLogin')->group(function () {
     Route::prefix('product')->group(function () {
         Route::get('/', [
