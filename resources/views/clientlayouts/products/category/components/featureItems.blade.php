@@ -4,7 +4,12 @@
     @if($categoryProducts->count() == 0)
         <div class="col-sm-12 text-center"><p>Không có sản phẩm nào</p></div>
     @endif
-    @foreach($categoryProducts as $categoryProduct)
+
+
+    @foreach($categoryProducts as $keyCP => $categoryProduct)
+        @if($keyCP % 3 == 0)
+            <div class="row">
+        @endif
         <div class="col-sm-4">
             <div class="product-image-wrapper">
                 <div class="single-products">
@@ -32,6 +37,9 @@
                 </div>
             </div>
         </div>
+        @if($keyCP % 3 == 2)
+            </div>
+        @endif
     @endforeach
 
 </div><!--features_items-->
